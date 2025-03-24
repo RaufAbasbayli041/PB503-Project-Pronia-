@@ -1,43 +1,85 @@
-.container-fluid {
-    padding: 10px 12px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: black;
+.header {
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
 }
 
-
-.container-fluid .buyBtn{
-background-color: #7aa93c; border-color: #7aa93c;
-width: 80px;
-height: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: small;
+.header .buyBtn {
+  background-color: #7aa93c;
+  border-color: #7aa93c;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
 }
 
-#main_header  {
-    
-display: flex;
-justify-content: space-between;
-align-items: center;
-    
+#main_header,
+#main_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-#main_header .salam {
-   width: 1000px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-    
+#main_header .salam,
+.options {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#main_header .salam .mode{
-    width: 170px;
-    display: flex;
-    justify-content: space-around   ;
-
+#main_header .salam .mode {
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
 }
 
+#currency,
+#language {
+  border: none;
+  cursor: pointer;
+  background-color: #abd373;
+  color: white;
+}
+
+option {
+  color: black;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+#phone i {
+  color: #abd373;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+}
+
+#phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneNumber {
+  border: none;
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.phoneNumber:hover {
+  border: none;
+  color: #abd373;
+  transition: 0.75s;
+}
+
+#options i{
+font-size: 30px;
+padding-left: 5px;
+}
