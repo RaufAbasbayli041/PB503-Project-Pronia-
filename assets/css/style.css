@@ -1,0 +1,43 @@
+.container-fluid {
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+
+.container-fluid .buyBtn{
+background-color: #7aa93c; border-color: #7aa93c;
+width: 80px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: small;
+}
+
+#main_header  {
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+    
+}
+
+
+#main_header .salam {
+   width: 1000px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    
+}
+
+#main_header .salam .mode{
+    width: 170px;
+    display: flex;
+    justify-content: space-around   ;
+
+}
+
