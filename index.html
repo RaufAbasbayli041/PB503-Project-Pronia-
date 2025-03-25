@@ -10,22 +10,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Project-Pronia/Home</title>
   </head>
   <body>
     <div class="container-fluid header">
-      
       <h5 id="logo ">PB503 Mini Project</h5>
       <form class="d-flex" role="search">
         <button class="btn btn-success buyBtn" type="click">Buy Now</button>
       </form>
     </div>
-  </div>
+
     <div id="main_header" style="background-color: #abd373; height: 50px">
       <div class="container salam">
-        <span>HELLO EVERYONE! 25% OFF ALL PRODUCTS</span>
+        <span style="color: white">HELLO EVERYONE! 25% OFF ALL PRODUCTS</span>
         <div class="mode">
           <select name="form-select" id="currency">
             <option value="">USD</option>
@@ -42,48 +44,71 @@
       </div>
     </div>
 
+    <div id="main_options">
+      <div class="container options" style="height: 120px">
+        <div id="phone">
+          <i class="fas fa-phone-square"></i>
+          <a href="#" class="phoneNumber">+994 51 777 55 41</a>
+        </div>
 
+        <div class="pronia_icon">
+          <a href="./index.html">
+            <img src="./4147953.png" alt="" style="width: 80px" />
+          </a>
+        </div>
 
+        <div id="options" style="width: 150px">
+          <i class="fa fa-magnifying-glass"></i>
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa fa-bag-shopping"></i>
+        </div>
+      </div>
+    </div>
+    <hr style="margin: 0px" />
 
-    <div id="main_options" >
-    <div class="container options" style="height: 120px;">
-      <div id="phone">
-      <i class='fas fa-phone-square' ></i>
-        <a href="#" class="phoneNumber">+994 51 777 55 41</a>
+    <div class="web_pages container mt-3">
+      <div class="row">
+        <div class="col col-12">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">PAGES</a></li>
+            <li><a href="">CONTACT US</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div class="pronia_icon">
-      <a href="./index.html">
-        <img src="./4147953.png" alt="" style="width: 80px;" >
-      </a>
+    <div class="main_slide" style="background-color: #f8eee6">
+      <div id="carouselExample" class="carousel slide" style="width: 100vw">
+        <div class="carousel-inner container">
+          <div class="carousel-item active">
+            <img src="./burgerad15179945781952220614.png" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-
-    <div id="options" style="width: 150px;">
-     <i class="fa fa-magnifying-glass"></i>
-     <i class="fa-regular fa-heart"></i>
-     <i class="fa fa-bag-shopping"></i>
-     <i class="fa-regular fa-user"></i>
-    </div>
-      
-    </div>
-    <hr style="margin: 0px;">
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
