@@ -7,8 +7,8 @@
 }
 
 .header .buyBtn {
-  background-color: #7aa93c;
-  border-color: #7aa93c;
+  background-color:  #abd373;
+  border-color:  #abd373;
   width: 80px;
   height: 30px;
   display: flex;
@@ -122,9 +122,9 @@ option {
 
 .carousel-inner {
   display: flex;
-  justify-content: center;
+
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 
@@ -157,3 +157,52 @@ option {
 }
 
 
+#filteredPlants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#filteredPlants a{
+  height: 100%;
+font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+#filteredPlants a:hover{
+  border-color: #abd373;
+  border: dashed;
+  color: #abd373;
+ border-width: 1px;
+}
+
+.product_span {
+  font-size: large;
+}
+
+.card .price {
+  color: #abd373;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card .card-body h5:hover{
+  color: #abd373;
+  cursor: pointer;
+  transition: 0.75s ;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#services .truck{
+font-size: 200px;
+}

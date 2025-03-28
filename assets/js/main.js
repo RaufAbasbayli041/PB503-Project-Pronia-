@@ -27,12 +27,12 @@ function printCards (plants) {
         const cardWrapper = document.createElement("div")
         cardWrapper.className = "col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-3"
         cardWrapper.innerHTML = `<div class="card" style="width: 18rem">
-              <img src="${plant.image}" class="card-img-top" alt="..." />
+              <img src="${plant.image}" class="card-img-top card_image" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">${plant.name}</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">$ ${plant.price}</li>
+                <li class="list-group-item price">$${plant.price}</li>
                 <li class="list-group-item">${plant.rating}</li>
               
               </ul>
